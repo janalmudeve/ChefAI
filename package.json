@@ -1,0 +1,32 @@
+{
+  "name": "chefai",
+  "version": "1.0.0",
+  "description": "ChefAI is an intelligent cooking API that lets you input any combination of ingredients, and uses advanced AI to generate creative, delicious recipes tailored to what you have on hand. Perfect for discovering new meals and reducing food waste by making the most of your ingredients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janalmudeve/ChefAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janalmudeve/ChefAI/issues"
+  },
+  "homepage": "https://github.com/janalmudeve/ChefAI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.16.4",
+    "openai": "^5.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
