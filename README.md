@@ -2,8 +2,11 @@
 ChefAI is an intelligent cooking API that lets you input any combination of ingredients, and uses advanced AI to generate creative, delicious recipes tailored to what you have on hand. Perfect for discovering new meals and reducing food waste by making the most of your ingredients.
 
 ## Who to use it?
+
 #1. Go to OpenAI api-keys
+
 https://platform.openai.com/api-keys
+
   **1.1 Go to API keys and Create new scret key**  
     ![Simple Design](docs/step1.png)
 
@@ -14,7 +17,9 @@ https://platform.openai.com/api-keys
     ![Simple Design](docs/step3.png)
 
 #2. Go to MongoDB
+
 https://cloud.mongodb.com/
+
   **2.1 Go to cluster and create a new one**  
     ![Simple Design](docs/step4.png)
 
@@ -25,7 +30,9 @@ https://cloud.mongodb.com/
     ![Simple Design](docs/step6.png)
   
 #3. Add your OpenAI and MongoDB credentials
+
 Inside `.env`, paste your keys like this:  
+
   ![Simple Design](docs/ApiKey.png)
   
 ⚠️ Do not use quotes around the values, just plain text.
