@@ -3,7 +3,7 @@ ChefAI is an intelligent cooking API that lets you input any combination of ingr
 
 ## Who to use it?
 
-#1. Go to OpenAI api-keys
+# 1. Go to OpenAI api-keys
 
 https://platform.openai.com/api-keys
 
@@ -16,7 +16,7 @@ https://platform.openai.com/api-keys
   **1.3 Copy the key and paste it in the .env**  
     ![Simple Design](docs/step3.png)
 
-#2. Go to MongoDB
+# 2. Go to MongoDB
 
 https://cloud.mongodb.com/
 
@@ -29,7 +29,7 @@ https://cloud.mongodb.com/
   **2.3 Copy the connection string to the .env**  
     ![Simple Design](docs/step6.png)
   
-#3. Add your OpenAI and MongoDB credentials
+# 3. Add your OpenAI and MongoDB credentials
 
 Inside `.env`, paste your keys like this:  
 
